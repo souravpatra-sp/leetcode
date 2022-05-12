@@ -14,6 +14,7 @@ public:
             {
                 ans.push_back(mpp[target-nums[i]]);
                 ans.push_back(i);
+                return ans;
             }
             mpp[nums[i]]=i;
         }
